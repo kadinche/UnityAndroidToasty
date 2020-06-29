@@ -3,8 +3,22 @@
 apply plugin: 'com.android.library'
 **APPLY_PLUGINS**
 
+([rootProject] + (rootProject.subprojects as List)).each { project ->
+    project.repositories {
+        def unityProjectPath = $/file:///**DIR_UNITYPROJECT**/$.replace("\\", "/")
+        maven {
+            url (unityProjectPath + "/m2repository")
+        }
+        maven {
+            url "https://jitpack.io"
+        }
+    }
+}
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    debugImplementation 'com.kadinche.example:toastywrapper:0.0.1-debug'
+    releaseImplementation 'com.kadinche.example:toastywrapper:0.0.1'
 **DEPS**}
 
 android {
