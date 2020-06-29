@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
+apply plugin: 'maven-publish'
 
 group = 'com.kadinche.example'
 version = '0.0.1'
@@ -25,6 +26,38 @@ android {
         }
     }
 
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            // Set for all build variant
+            android.libraryVariants.all { variant ->
+                "maven${variant.name.capitalize()}Aar"(MavenPublication) {
+                    from components.findByName("${variant.name}")
+                    if ("${variant.name}" != "release") {
+                        version = "${version}-${variant.name}"
+                    }
+                }
+            }
+
+            // Set for each build variant
+            /*
+            debugAar(MavenPublication) {
+                from components.debug
+                version = "${version}-debug"
+            }
+            releaseAar(MavenPublication) {
+                from components.release
+            }
+            */
+        }
+        repositories {
+            maven {
+                url "${rootProject.projectDir}/../UnityAndroidToasty/m2repository"
+            }
+        }
+    }
 }
 
 dependencies {
