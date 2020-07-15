@@ -7,9 +7,9 @@ Sample to solve Android dependent library by gradle.
 
 ## Requirements
 
-- Unity2019.4.1f1
+- Unity2019.4.8f1
     - Android Build Support Module
-- Android Studio 4.0
+- Android Studio 4.0.1
 
 ## How to build
 
