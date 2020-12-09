@@ -10,8 +10,8 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "6.1.1",
-      "buildId": "dg5iynmlvbfqbk6wogu2y6ez24"
+      "version": "6.5",
+      "buildId": "unl7pu6dhzbw3freya6xmoqtvm"
     }
   },
   "variants": [
@@ -27,11 +27,11 @@
         {
           "name": "toastywrapper-0.0.1.aar",
           "url": "toastywrapper-0.0.1.aar",
-          "size": 16126,
-          "sha512": "f10a2cf2ab6487d9490810db5e7966c1a673ac69eb11aabf56610c8e0407f6d7f6c3048258bc5a56887e315b12575e0963f98db3ac5516dbcb95830fce57981e",
-          "sha256": "d4570a441d45d100808aa61b701e6d9ca666310eeee55777c05bf55e72b797cc",
-          "sha1": "2814698a59454d98146943df669466b820c30f0f",
-          "md5": "3029a7b60fb37d8105bb8492795c9623"
+          "size": 16245,
+          "sha512": "cc3b8c0e221c78cee625efa2b3d3ef3028bba11341762107a5983aa3387da1783b5e342bf4e48b97a6c26e18aa8b1d3e64f8362208eebf82239a267a3ea2eb6d",
+          "sha256": "5c3582f9b56e4be7d36c2920ad16a7b2a55366358b0991b654c3cbe346251d1b",
+          "sha1": "68b10af6fe52b30e794347b2c433714d3b9387c7",
+          "md5": "4191ddc14f6b75dd8e003f4957fcf444"
         }
       ]
     },
@@ -55,7 +55,7 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-jdk7",
           "version": {
-            "requires": "1.3.72"
+            "requires": "1.4.21"
           }
         }
       ],
@@ -63,11 +63,11 @@
         {
           "name": "toastywrapper-0.0.1.aar",
           "url": "toastywrapper-0.0.1.aar",
-          "size": 16126,
-          "sha512": "f10a2cf2ab6487d9490810db5e7966c1a673ac69eb11aabf56610c8e0407f6d7f6c3048258bc5a56887e315b12575e0963f98db3ac5516dbcb95830fce57981e",
-          "sha256": "d4570a441d45d100808aa61b701e6d9ca666310eeee55777c05bf55e72b797cc",
-          "sha1": "2814698a59454d98146943df669466b820c30f0f",
-          "md5": "3029a7b60fb37d8105bb8492795c9623"
+          "size": 16245,
+          "sha512": "cc3b8c0e221c78cee625efa2b3d3ef3028bba11341762107a5983aa3387da1783b5e342bf4e48b97a6c26e18aa8b1d3e64f8362208eebf82239a267a3ea2eb6d",
+          "sha256": "5c3582f9b56e4be7d36c2920ad16a7b2a55366358b0991b654c3cbe346251d1b",
+          "sha1": "68b10af6fe52b30e794347b2c433714d3b9387c7",
+          "md5": "4191ddc14f6b75dd8e003f4957fcf444"
         }
       ]
     }
