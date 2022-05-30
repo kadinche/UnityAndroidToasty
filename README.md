@@ -9,7 +9,7 @@ Sample to solve Android dependent library by gradle.
 
 - Unity2019.4.16f1
     - Android Build Support Module
-- Android Studio 4.1.1
+- Android Studio Chipmunk
 
 ## How to build
 

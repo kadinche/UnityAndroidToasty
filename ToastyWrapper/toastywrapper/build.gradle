@@ -7,13 +7,11 @@ version = '0.0.1'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "29.0.3"
 
     defaultConfig {
         minSdkVersion 23
+        //noinspection ExpiredTargetSdkVersion
         targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles 'consumer-rules.pro'
@@ -26,6 +24,14 @@ android {
         }
     }
 
+    publishing {
+        multipleVariants('debug') {
+            includeBuildTypeValues('debug')
+        }
+        multipleVariants('release') {
+            includeBuildTypeValues('release')
+        }
+    }
 }
 
 afterEvaluate {
@@ -65,7 +71,7 @@ dependencies {
     compileOnly files('libs/classes.jar')
     implementation 'com.github.GrenderG:Toasty:1.4.2'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    testImplementation 'junit:junit:4.13.1'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
