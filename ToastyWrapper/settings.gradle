@@ -1,3 +1,4 @@
 rootProject.name='ToastyWrapper'
 include ':app'
 include ':toastywrapper'
+include ':unity'

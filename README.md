@@ -13,7 +13,8 @@ Sample to solve Android dependent library by gradle.
 
 ## How to build
 
-1. copy `classes.jar` in Unity Editor to `ToastyWrapper/toastywrapper/libs/`  
+1. copy `classes.jar` in Unity Editor to `ToastyWrapper/unity/libs/`  
+1. copy `UnityPlayerActivity.java` in Unity Editor to `ToastyWrapper/unity/src/main/com/unity3d/player/`
 see also https://docs.unity3d.com/Manual/AndroidUnityPlayerActivity.html
 1. build android library
 
