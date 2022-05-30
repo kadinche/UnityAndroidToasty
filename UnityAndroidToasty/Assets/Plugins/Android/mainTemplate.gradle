@@ -15,8 +15,8 @@ apply plugin: 'com.android.library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    debugImplementation 'com.kadinche.example:toastywrapper:0.0.1-debug'
-    releaseImplementation 'com.kadinche.example:toastywrapper:0.0.1'
+    debugImplementation 'com.kadinche.example:toastywrapper:0.0.2-debug'
+    releaseImplementation 'com.kadinche.example:toastywrapper:0.0.2'
 **DEPS**}
 
 android {

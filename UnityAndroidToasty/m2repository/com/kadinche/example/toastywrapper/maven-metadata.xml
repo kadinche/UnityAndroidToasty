@@ -3,12 +3,14 @@
   <groupId>com.kadinche.example</groupId>
   <artifactId>toastywrapper</artifactId>
   <versioning>
-    <latest>0.0.1</latest>
-    <release>0.0.1</release>
+    <latest>0.0.2</latest>
+    <release>0.0.2</release>
     <versions>
       <version>0.0.1-debug</version>
       <version>0.0.1</version>
+      <version>0.0.2</version>
+      <version>0.0.2-debug</version>
     </versions>
-    <lastUpdated>20201209075459</lastUpdated>
+    <lastUpdated>20220530053455</lastUpdated>
   </versioning>
 </metadata>

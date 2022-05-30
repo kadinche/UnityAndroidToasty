@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kadinche.example",
+    "module": "toastywrapper",
+    "version": "0.0.2-debug",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "toastywrapper-0.0.2-debug.aar",
+          "url": "toastywrapper-0.0.2-debug.aar",
+          "size": 16439,
+          "sha512": "672b1bc9d3a8e37dab36f1eabfe3d9a88b0a64a78c1e1867ee060c2f17bffe220172dd0206b05d03463c791ded0370a7f217f2bd790b1fae32e0b573cb21d319",
+          "sha256": "7030b81f1a70333de348dc219db4e36d2d43de6bdd56797459a04634bd1e60fa",
+          "sha1": "d941f0f46b9c886115e5fb7b9ca805dbf1bd4c1c",
+          "md5": "881e78bf368759f6674b352d3ff89b73"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.GrenderG",
+          "module": "Toasty",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.5.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "toastywrapper-0.0.2-debug.aar",
+          "url": "toastywrapper-0.0.2-debug.aar",
+          "size": 16439,
+          "sha512": "672b1bc9d3a8e37dab36f1eabfe3d9a88b0a64a78c1e1867ee060c2f17bffe220172dd0206b05d03463c791ded0370a7f217f2bd790b1fae32e0b573cb21d319",
+          "sha256": "7030b81f1a70333de348dc219db4e36d2d43de6bdd56797459a04634bd1e60fa",
+          "sha1": "d941f0f46b9c886115e5fb7b9ca805dbf1bd4c1c",
+          "md5": "881e78bf368759f6674b352d3ff89b73"
+        }
+      ]
+    }
+  ]
+}
