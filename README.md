@@ -7,14 +7,14 @@ Sample to solve Android dependent library by gradle.
 
 ## Requirements
 
-- Unity2019.4.16f1
+- Unity2021.3.3f1
     - Android Build Support Module
 - Android Studio Chipmunk
 
 ## How to build
 
-1. copy `classes.jar` in Unity Editor to `ToastyWrapper/unity/libs/`  
-1. copy `UnityPlayerActivity.java` in Unity Editor to `ToastyWrapper/unity/src/main/com/unity3d/player/`
+1. copy `classes.jar` in Unity Editor to `ToastyWrapper/unity/libs/`
+1. copy `UnityPlayerActivity.java` in Unity Editor to `ToastyWrapper/unity/src/main/com/unity3d/player/`  
 see also https://docs.unity3d.com/Manual/AndroidUnityPlayerActivity.html
 1. build android library
 
