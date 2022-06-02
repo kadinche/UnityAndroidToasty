@@ -7,7 +7,7 @@ Sample to solve Android dependent library by gradle.
 
 ## Requirements
 
-- Unity2021.3.3f1
+- Unity2021.3.4f1
     - Android Build Support Module
 - Android Studio Chipmunk
 
